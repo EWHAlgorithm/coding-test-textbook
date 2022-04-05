@@ -20,6 +20,10 @@ class Node {
     public int getY() {
         return this.y;
     }
+
+    public void show() {
+        System.out.print("(" + this.x + "," + this.y + ") ");
+    }
 }
 
 public class mazeEscape {
