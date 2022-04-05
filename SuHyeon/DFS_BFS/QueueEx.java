@@ -1,6 +1,8 @@
+package DFS_BFS;
+
 import java.util.*;
 
-public class queueEx {
+public class QueueEx {
     public static void main(String[] args) {
         Queue<Integer> q = new LinkedList<>();
 

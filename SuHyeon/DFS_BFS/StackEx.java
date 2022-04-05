@@ -1,6 +1,8 @@
+package DFS_BFS;
+
 import java.util.Stack;
 
-public class stackEx {
+public class StackEx {
     public static void main(String[] args) {
         Stack<Integer> s = new Stack<>();
 
@@ -23,4 +25,5 @@ public class stackEx {
             s.pop();
         }
     }
+    
 }

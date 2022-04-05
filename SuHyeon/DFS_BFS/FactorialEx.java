@@ -1,4 +1,7 @@
-public class factorialEx {
+package DFS_BFS;
+
+public class FactorialEx {
+    // 반복적으로 구현한 n!
     public static int factorial_iterative(int n) {
         int result = 1;
 
@@ -16,6 +19,7 @@ public class factorialEx {
         return result;
     }
 
+    // 재귀적으로 구현한 n!
     public static int factorial_recursive(int n) {
         if(n<0) {
             System.out.println("잘못된 입력값입니다.");
@@ -26,10 +30,8 @@ public class factorialEx {
             return n * factorial_recursive(n-1);
         }
     }
-
     public static void main(String[] args) {
         System.out.println("반복 구현: " + factorial_iterative(5));
         System.out.println("재귀 구현: " + factorial_recursive(5));
     }
-    
 }
